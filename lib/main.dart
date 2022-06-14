@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_study/inheritedwidget_test.dart';
+import 'package:flutter_study/inherited_test.dart';
 import 'package:flutter_study/navigationbar_test.dart';
 import 'package:flutter_study/single_child_scrollview.dart';
 import 'package:flutter_study/swapTest.dart';
@@ -10,16 +10,17 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'expand_test.dart';
 import 'image_container.dart';
 import 'image_test.dart';
-import 'main2.dart';
+import 'inherited_test2.dart';
 import 'navigation_test.dart';
 
 void main() {
+  //runApp(const MyApp());
   //runApp(const ImageText());
   //runApp(const ButtomNavigationTest());
   //runApp(main2MyApp());
   //runApp(const NavigationPage());
   //runApp(const InharitedWidgetTest());
-  runApp(const MyApp());
+  runApp(const InheritedWidgetTest2());
   //runApp(WidgetLookTest());
 }
 
